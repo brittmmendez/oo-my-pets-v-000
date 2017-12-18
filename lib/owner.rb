@@ -1,12 +1,12 @@
 class Owner
   attr_accessor :pets, :name
   @@owners=[]
-  @@owner_count=0
+  @@count=0
 
   def initialize(name)
     @pets={fishes: [], cats: [], dogs: []}
     @@owners<<self
-    @@owner_count+=1
+    @@count+=1
   end
 
   def self.all
@@ -15,11 +15,11 @@ class Owner
 
   def self.reset_all
     @@owners=[]
-    @@owner_count=0
+    @@count=0
   end
 
-  def self.owner_count
-    @@owner_count
+  def self.count
+    @@count
   end
 
 
