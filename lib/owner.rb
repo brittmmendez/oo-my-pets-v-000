@@ -43,5 +43,9 @@ class Owner
     @pets[:dogs]<<dog
   end
 
+  def walk_dogs
+    dog.mood="Happy"
+  end
+
 
 end
