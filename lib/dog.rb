@@ -7,8 +7,4 @@ class Dog
       @mood="nervous"
     end
 
-    def Owner.walk_dogs
-        @mood="Happy"
-      end
-
-end
+  end
