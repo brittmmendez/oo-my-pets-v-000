@@ -27,7 +27,7 @@ class Owner
   def self.species
     @species
   end
-  
+
 
 
 
