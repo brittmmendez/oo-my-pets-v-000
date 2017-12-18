@@ -5,7 +5,10 @@ class Dog
     def initialize(name)
       @name=name
       @mood="nervous"
-
     end
 
+    def Owner.walk_dogs
+        @mood="Happy"
+      end
+      
 end
