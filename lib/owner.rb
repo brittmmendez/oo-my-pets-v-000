@@ -47,9 +47,23 @@ class Owner
     "I have #{@pets[:fishes].length} fish, #{@pets[:dogs].length} dog(s), and #{@pets[:cats].length} cat(s)."
   end
 
-  def sell_pets
-    @pets={fishes: [], cats: [], dogs: []}
+  def walk_dogs
+    pets[:dogs].each do|dog| 
+      dog.mood ="happy"
+    end
   end
 
+  def play_with_cats
+    pets[:cats].each do |cat|
+      cat.mood="happy"
+    end    
+  end
 
+  def feed_fish
+    pets[:fish].each do |fish|
+      fish.mood="happy"
+    end
+  end
+
+  
 end
