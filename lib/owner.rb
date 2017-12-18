@@ -51,4 +51,10 @@ class Owner
     @pets={fishes: [], cats: [], dogs: []}
   end
 
+  def walk_dogs
+    @dog.mood="Happy"
+  end
+    
+  end
+
 end
