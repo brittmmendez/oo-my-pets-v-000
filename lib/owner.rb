@@ -55,6 +55,6 @@ class Owner
     @dog.mood="Happy"
   end
 
-  end
+  
 
 end
