@@ -10,5 +10,5 @@ class Dog
     def Owner.walk_dogs
         @mood="Happy"
       end
-      
+
 end
