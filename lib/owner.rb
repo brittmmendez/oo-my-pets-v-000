@@ -19,7 +19,7 @@ class Owner
   end
 
   def self.owner_count
-    @@owner_count    
+    @@owner_count
   end
 
 
