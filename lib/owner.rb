@@ -18,6 +18,10 @@ class Owner
     @@owner_count=0
   end
 
+  def self.owner_count
+    @@owner_count    
+  end
+
 
 
 
