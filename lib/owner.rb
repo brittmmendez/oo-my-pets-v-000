@@ -29,18 +29,18 @@ class Owner
   end
 
   def buy_fish(name)
-    @fish=Fish.new(name)
-    @pets[:fishes]<<@fish
+    fish=Fish.new(name)
+    @pets[:fishes]<<fish
   end
 
   def buy_cat(name)
-    @cat=Cat.new(name)
-    @pets[:cats]<<@cat
+    cat=Cat.new(name)
+    @pets[:cats]<<cat
   end
 
   def buy_dog(name)
-    @dog=Dog.new(name)
-    @pets[:dogs]<<@dog
+    dog=Dog.new(name)
+    @pets[:dogs]<<dog
   end
 
   def list_pets
@@ -50,11 +50,6 @@ class Owner
   def sell_pets
     @pets={fishes: [], cats: [], dogs: []}
   end
-
-  def walk_dogs
-    @dog.mood="Happy"
-  end
-
 
 
 end
