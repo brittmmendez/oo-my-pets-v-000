@@ -7,11 +7,11 @@ class Owner
     @@owners<<self
   end
 
-  def Owner.all
+  def self.all
     @@owners
   end
 
-  def Owner.reset_all
+  def self.reset_all
     @@owners=[]
   end
 
